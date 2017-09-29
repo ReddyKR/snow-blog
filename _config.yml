@@ -31,11 +31,10 @@ plugins:
 #GitHub
 USERNAME: JahnelGroup
 repo: snow-blog
-branch: gh-pages
+branch: master
 
 #Jekyll source / destination
 destination: ../gh-pages/
-relative_source: ../master/
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
