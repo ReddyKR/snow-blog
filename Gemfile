@@ -27,3 +27,4 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem "rake", "~> 10.1.1"
 gem "jekyll-paginate"
 gem "jekyll-archives"
+gem "github-pages", "~> 15"
