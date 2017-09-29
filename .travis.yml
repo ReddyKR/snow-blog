@@ -15,5 +15,4 @@ env:
 branches:
   only:
   - master
-  - gh-pages     # test the gh-pages branch
   - /pages-(.*)/ # test every branch which starts with "pages-"
