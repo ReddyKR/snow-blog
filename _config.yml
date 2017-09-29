@@ -29,7 +29,7 @@ plugins:
   - jekyll-feed
 
 #GitHub
-username: JahnelGroup
+username: jjl2599
 repo: snow-blog
 branch: gh-pages
 
