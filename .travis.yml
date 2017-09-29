@@ -5,7 +5,7 @@ rvm:
 install:
 - bundle install
 
-script: bundle exec rake site:deploy --trace
+script: bundle exec rake site:build --trace
 
 env:
   global:
