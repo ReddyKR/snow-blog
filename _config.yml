@@ -34,8 +34,8 @@ repo: snow-blog
 branch: ''
 
 #Jekyll source / destination
-destination: ../gh-pages/
-relative_source: ../master/
+destination: ../master/
+relative_source: ../gh-pages/
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
