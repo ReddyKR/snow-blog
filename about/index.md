@@ -3,12 +3,8 @@ layout: page
 title: About
 class: 'post'
 navigation: True
-logo: 'assets/images/ghost.png'
+logo: 'assets/images/jg_logo_white.png'
 current: about
 ---
 
-This is a demo blog for Ghost, it contains dummy content which allows you to click around and see what a Ghost blog running the default theme looks like.
-
-We use this for testing and for reference!
-
-If you'd like to set up your own blog, head on over to [https://ghost.org](https://ghost.org) and sign up.
+We aim to provide information on the ServiceNow ecosystem and our experiences with it. Our goal is to share as much knowledge as we can to help enable other businesses and developers to both share in our successes, and avoid the same pitfalls we've discovered.
