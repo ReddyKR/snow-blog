@@ -25,7 +25,7 @@
     <style>.hljs { background: none; }</style>
 
     <!-- [[! Ghost outputs important style and meta data with this tag ]] -->
-        <link rel="canonical" href="/snow-blog/404" />
+        <link rel="canonical" href="/snow-blog/tag/fables/" />
     <meta name="referrer" content="origin" />
     <link rel="next" href="/snow-blogpage2/" />
 
@@ -33,14 +33,14 @@
     <meta property="og:type" content="website" />
     <meta property="og:title" content="" />
     <meta property="og:description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description." />
-    <meta property="og:url" content="/snow-blog/404" />
-    <meta property="og:image" content="/snow-blogassets/images/cover1.jpg" />
+    <meta property="og:url" content="/snow-blog/tag/fables/" />
+    <meta property="og:image" content="/snow-blogassets/images/cover2.jpg" />
 
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="" />
     <meta name="twitter:description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description." />
-    <meta name="twitter:url" content="/snow-blog/404" />
-    <meta name="twitter:image:src" content="/snow-blogassets/images/cover1.jpg" />
+    <meta name="twitter:url" content="/snow-blog/tag/fables/" />
+    <meta name="twitter:image:src" content="/snow-blogassets/images/cover2.jpg" />
 
     <script type="application/ld+json">
 {
@@ -48,8 +48,8 @@
     "@type": "Website",
     "publisher": "",
     "name": "",
-    "url": "/snow-blog/404",
-    "image": "/snow-blogassets/images/cover1.jpg",
+    "url": "/snow-blog/tag/fables/",
+    "image": "/snow-blogassets/images/cover2.jpg",
     "description": "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
 }
     </script>
@@ -59,7 +59,7 @@
 
 
 </head>
-<body class="home-template nav-closed">
+<body class="tag-template nav-closed">
 
     <div class="nav">
     <h3 class="nav-title">Menu</h3>
@@ -69,7 +69,7 @@
     <ul>
         <li class="nav-home " role="presentation"><a href="/snow-blog">Home</a></li>
         <li class="nav-about " role="presentation"><a href="/snow-blogabout">About</a></li>
-        <li class="nav-fables " role="presentation"><a href="/snow-blogtag/fables">Fables</a></li>
+        <li class="nav-fables  nav-current" role="presentation"><a href="/snow-blogtag/fables">Fables</a></li>
         <li class="nav-speeches " role="presentation"><a href="/snow-blogtag/speeches">Speeches</a></li>
         <li class="nav-fiction " role="presentation"><a href="/snow-blogtag/fiction">Fiction</a></li>
         <li class="nav-author " role="presentation"><a href="/snow-blogauthor/casper">Author</a></li>
@@ -82,27 +82,89 @@
     <div class="site-wrapper">
 
         <!-- [[! Everything else gets inserted here ]] -->
-        <style type="text/css" media="screen">
-  .container {
-    margin: 10px auto;
-    max-width: 600px;
-    text-align: center;
-  }
-  h1 {
-    margin: 30px 0;
-    font-size: 4em;
-    line-height: 1;
-    letter-spacing: -1px;
-  }
-</style>
+        <!-- < dynamically overriding backgrounds for tags as well as descriptions -->
 
-<div class="container">
-  <h1>404</h1>
 
-  <p><strong>Page not found :(</strong></p>
-  <p>The requested page could not be found.</p>
-</div>
+<!-- < default}} -->
+<!-- The tag above means - insert everything in this file into the [body] of the default.hbs template -->
 
+<!-- If we have a tag cover, display that - else blog cover - else nothing -->
+<header class="main-header tag-head " style="background-image: url(/snow-blogassets/images/cover2.jpg) ">
+    <nav class="main-nav overlay clearfix">
+        <a class="blog-logo" href="/snow-blog"><img src="/snow-blogassets/images/ghost.png" alt="Blog Logo" /></a>
+        
+            <a class="menu-button icon-menu" href="#"><span class="word">Menu</span></a>
+        
+    </nav>
+    <div class="vertical">
+        <div class="main-header-content inner">
+            <h1 class="page-title">Fables</h1>
+            <h2 class="page-description">
+            
+                A series of short stories that make you think.
+            
+            </h2>
+        </div>
+    </div>
+</header>
+
+<!-- The main content area on the homepage -->
+<main id="content" class="content" role="main">
+
+    <!-- The tag below includes the post loop - partials/loop.hbs -->
+        <!-- Previous/next page links - only displayed on page 2+ -->
+    <div class="extra-pagination inner">
+        
+            <nav class="pagination" role="pagination">
+    
+    <span class="page-number"> Page 1 of 1 </span>
+     
+</nav>
+        
+    </div>
+
+    <!-- This is the post loop - each post will be output using this markup -->
+    
+    <article class="post">
+        <header class="post-header">
+            <h2 class="post-title"><a href="/snow-blogthe-businessman-and-fisherman">The Businessman & the fisherman</a></h2>
+        </header>
+        <section class="post-excerpt">
+            <p>An American businessman took a vacation to a small coastal Mexican village on doctor’s orders. Unable to sleep after an urgent phone call from the office... <a class="read-more" href="/snow-blogthe-businessman-and-fisherman">&raquo;</a></p>
+        </section>
+        <footer class="post-meta">
+            
+            <!-- author -->
+            <a href='/snow-blogauthor/'></a>
+            <!-- [[tags prefix=" on "]] -->
+             
+                on 
+                
+                    
+                       <a href='/snow-blogtag/fables'>Fables</a>,
+                       
+                
+                    
+                       <a href='/snow-blogtag/fiction'>Fiction</a>
+                       
+                
+            
+            <time class="post-date" datetime="2014-08-12">12 Aug 2014</time>
+        </footer>
+    </article>
+    
+
+    <!-- Previous/next page links - displayed on every page -->
+    
+        <nav class="pagination" role="pagination">
+    
+    <span class="page-number"> Page 1 of 1 </span>
+     
+</nav>
+    
+
+
+</main>
 
         <footer class="site-footer clearfix">
           <section class="copyright"><a href="/snow-blog"></a> &copy; 2017</section>
