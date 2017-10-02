@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
     <!-- [[! Page Meta ]] -->
-    <title>Jahnel Group ServiceNow Blog</title>
+    <title>Finding The Way Home</title>
     <meta name="description" content="A blog about ServiceNow" />
 
     <meta name="HandheldFriendly" content="True" />
@@ -31,13 +31,13 @@
 
     <meta property="og:site_name" content="Jahnel Group ServiceNow Blog" />
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="Jahnel Group ServiceNow Blog" />
+    <meta property="og:title" content="Finding The Way Home" />
     <meta property="og:description" content="A blog about ServiceNow" />
     <meta property="og:url" content="http://JahnelGroup.github.io/snow-blog//snow-blog/" />
     <meta property="og:image" content="/snow-blogassets/images/cover1.jpg" />
 
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Jahnel Group ServiceNow Blog" />
+    <meta name="twitter:title" content="Finding The Way Home" />
     <meta name="twitter:description" content="A blog about ServiceNow" />
     <meta name="twitter:url" content="http://JahnelGroup.github.io/snow-blog//snow-blog/" />
     <meta name="twitter:image:src" content="/snow-blogassets/images/cover1.jpg" />
@@ -47,7 +47,7 @@
     "@context": "http://schema.org",
     "@type": "Website",
     "publisher": "Jahnel Group ServiceNow Blog",
-    "name": "Jahnel Group ServiceNow Blog",
+    "name": "Finding The Way Home",
     "url": "http://JahnelGroup.github.io/snow-blog//snow-blog/",
     "image": "/snow-blogassets/images/cover1.jpg",
     "description": "A blog about ServiceNow"
@@ -67,7 +67,7 @@
         <span class="hidden">Close</span>
     </a>
     <ul>
-        <li class="nav-home " role="presentation"><a href="/snow-blog">Home</a></li>
+        <li class="nav-home  nav-current" role="presentation"><a href="/snow-blog">Home</a></li>
         <li class="nav-about " role="presentation"><a href="/snow-blogabout">About</a></li>
         <li class="nav-fables " role="presentation"><a href="/snow-blogtag/fables">Fables</a></li>
         <li class="nav-speeches " role="presentation"><a href="/snow-blogtag/speeches">Speeches</a></li>
@@ -82,92 +82,192 @@
     <div class="site-wrapper">
 
         <!-- [[! Everything else gets inserted here ]] -->
-        <div class="home">
+        <!-- < default -->
+<!-- The tag above means - insert everything in this file into the [body] of the default.hbs template -->
 
-  <h1 class="page-heading">Posts</h1>
-  
-  
-
-
-  <ul class="post-list">
-    
-      <li>
+<!-- The big featured header  -->
+<header class="main-header "
+        style="background-image: url(/snow-blogassets/images/cover1.jpg) ">
+    <nav class="main-nav overlay clearfix">
+        <a class="blog-logo" href="/snow-blog"><img src="/snow-blogassets/images/ghost.png" alt="Blog Logo" /></a>
         
-        <span class="post-meta">Sep 27, 2014</span>
-
-        <h2>
-          <a class="post-link" href="/snow-blog/a-full-and-comprehensive-style-test">A Full and Comprehensive Style Test</a>
-        </h2>
-      </li>
-    
-      <li>
+            <a class="menu-button icon-menu" href="#"><span class="word">Menu</span></a>
         
-        <span class="post-meta">Aug 12, 2014</span>
+    </nav>
+    <div class="vertical">
+        <div class="main-header-content inner">
+            <h1 class="page-title">Jahnel Group ServiceNow Blog</h1>
+            <h2 class="page-description">A blog about ServiceNow</h2>
+        </div>
+    </div>
+    <a class="scroll-down icon-arrow-left" href="#content" data-offset="-45"><span class="hidden">Scroll Down</span></a>
+</header>
 
-        <h2>
-          <a class="post-link" href="/snow-blog/the-businessman-and-fisherman">The Businessman &amp; the fisherman</a>
-        </h2>
-      </li>
-    
-      <li>
+<!-- The main content area on the homepage -->
+<main id="content" class="content" role="main">
+
+    <!-- The tag below includes the post loop - partials/loop.hbs -->
+        <!-- Previous/next page links - only displayed on page 2+ -->
+    <div class="extra-pagination inner">
         
-        <span class="post-meta">Aug 28, 1963</span>
-
-        <h2>
-          <a class="post-link" href="/snow-blog/i-have-a-dream">I Have a Dream</a>
-        </h2>
-      </li>
+            <nav class="pagination" role="pagination">
     
-      <li>
+    <span class="page-number"> Page 1 of 2 </span>
+     
+        <a class="older-posts" href="/snow-blogpage2/" title="Next Page">Older Posts &raquo;</a>
+     
+</nav>
         
-        <span class="post-meta">Dec 12, 1948</span>
+    </div>
 
-        <h2>
-          <a class="post-link" href="/snow-blog/the-purpose-of-education">The Purpose of Education</a>
-        </h2>
-      </li>
+    <!-- This is the post loop - each post will be output using this markup -->
     
-      <li>
-        
-        <span class="post-meta">Jul 24, 1912</span>
-
-        <h2>
-          <a class="post-link" href="/snow-blog/out-to-sea">Out to Sea</a>
-        </h2>
-      </li>
+    <article class="post">
+        <header class="post-header">
+            <h2 class="post-title"><a href="/snow-bloga-full-and-comprehensive-style-test">A Full and Comprehensive Style Test</a></h2>
+        </header>
+        <section class="post-excerpt">
+            <p>This is just an ipsis verbis copy of the first example running on the Ghost Demo. This shows how you can use html styling to achieve... <a class="read-more" href="/snow-bloga-full-and-comprehensive-style-test">&raquo;</a></p>
+        </section>
+        <footer class="post-meta">
+            <img class="author-thumb" src="/snow-blogassets/images/casper.png" alt="Author image" nopin="nopin" />
+            <!-- author -->
+            <a href='/snow-blogauthor/JG'>Darrin Jahnel</a>
+            <!-- [[tags prefix=" on "]] -->
+             
+                on 
+                
+                    
+                       <a href='/snow-blogtag/test'>Test</a>,
+                       
+                
+                    
+                       <a href='/snow-blogtag/content'>Content</a>
+                       
+                
+            
+            <time class="post-date" datetime="2014-09-27">27 Sep 2014</time>
+        </footer>
+    </article>
     
-      <li>
-        
-        <span class="post-meta">Mar 18, 1871</span>
-
-        <h2>
-          <a class="post-link" href="/snow-blog/looking-glass-house">Looking-Glass house</a>
-        </h2>
-      </li>
+    <article class="post">
+        <header class="post-header">
+            <h2 class="post-title"><a href="/snow-blogthe-businessman-and-fisherman">The Businessman & the fisherman</a></h2>
+        </header>
+        <section class="post-excerpt">
+            <p>An American businessman took a vacation to a small coastal Mexican village on doctor’s orders. Unable to sleep after an urgent phone call from the office... <a class="read-more" href="/snow-blogthe-businessman-and-fisherman">&raquo;</a></p>
+        </section>
+        <footer class="post-meta">
+            <img class="author-thumb" src="/snow-blogassets/images/casper.png" alt="Author image" nopin="nopin" />
+            <!-- author -->
+            <a href='/snow-blogauthor/JG'>Darrin Jahnel</a>
+            <!-- [[tags prefix=" on "]] -->
+             
+                on 
+                
+                    
+                       <a href='/snow-blogtag/fables'>Fables</a>,
+                       
+                
+                    
+                       <a href='/snow-blogtag/fiction'>Fiction</a>
+                       
+                
+            
+            <time class="post-date" datetime="2014-08-12">12 Aug 2014</time>
+        </footer>
+    </article>
     
-      <li>
-        
-        <span class="post-meta">Nov 26, 1865</span>
-
-        <h2>
-          <a class="post-link" href="/snow-blog/down-the-rabbit-hole">Down The Rabbit Hole</a>
-        </h2>
-      </li>
+    <article class="post">
+        <header class="post-header">
+            <h2 class="post-title"><a href="/snow-blogi-have-a-dream">I Have a Dream</a></h2>
+        </header>
+        <section class="post-excerpt">
+            <p>I am happy to join with you today in what will go down in history as the greatest demonstration for freedom in the history of our... <a class="read-more" href="/snow-blogi-have-a-dream">&raquo;</a></p>
+        </section>
+        <footer class="post-meta">
+            <img class="author-thumb" src="/snow-blogassets/images/casper.png" alt="Author image" nopin="nopin" />
+            <!-- author -->
+            <a href='/snow-blogauthor/JG'>Darrin Jahnel</a>
+            <!-- [[tags prefix=" on "]] -->
+             
+                on 
+                
+                    
+                       <a href='/snow-blogtag/speeches'>Speeches</a>
+                       
+                
+            
+            <time class="post-date" datetime="1963-08-28">28 Aug 1963</time>
+        </footer>
+    </article>
     
-      <li>
-        
-        <span class="post-meta">Nov 19, 1863</span>
-
-        <h2>
-          <a class="post-link" href="/snow-blog/gettysburg-address">Gettysburg Address</a>
-        </h2>
-      </li>
+    <article class="post">
+        <header class="post-header">
+            <h2 class="post-title"><a href="/snow-blogthe-purpose-of-education">The Purpose of Education</a></h2>
+        </header>
+        <section class="post-excerpt">
+            <p>As I engage in the so-called “bull sessions” around and about the school, I too often find that most college men have a misconception of the... <a class="read-more" href="/snow-blogthe-purpose-of-education">&raquo;</a></p>
+        </section>
+        <footer class="post-meta">
+            <img class="author-thumb" src="/snow-blogassets/images/casper.png" alt="Author image" nopin="nopin" />
+            <!-- author -->
+            <a href='/snow-blogauthor/JG'>Darrin Jahnel</a>
+            <!-- [[tags prefix=" on "]] -->
+             
+                on 
+                
+                    
+                       <a href='/snow-blogtag/speeches'>Speeches</a>,
+                       
+                
+                    
+                       <a href='/snow-blogtag/fiction'>Fiction</a>
+                       
+                
+            
+            <time class="post-date" datetime="1948-12-12">12 Dec 1948</time>
+        </footer>
+    </article>
     
-  </ul>
+    <article class="post">
+        <header class="post-header">
+            <h2 class="post-title"><a href="/snow-blogout-to-sea">Out to Sea</a></h2>
+        </header>
+        <section class="post-excerpt">
+            <p>I had this story from one who had no business to tell it to me, or to any other. I may credit the seductive influence of... <a class="read-more" href="/snow-blogout-to-sea">&raquo;</a></p>
+        </section>
+        <footer class="post-meta">
+            <img class="author-thumb" src="/snow-blogassets/images/casper.png" alt="Author image" nopin="nopin" />
+            <!-- author -->
+            <a href='/snow-blogauthor/JG'>Darrin Jahnel</a>
+            <!-- [[tags prefix=" on "]] -->
+             
+                on 
+                
+                    
+                       <a href='/snow-blogtag/fiction'>Fiction</a>
+                       
+                
+            
+            <time class="post-date" datetime="1912-07-24">24 Jul 1912</time>
+        </footer>
+    </article>
+    
 
-  <p class="rss-subscribe">subscribe <a href="/snow-blog/feed.xml">via RSS</a></p>
+    <!-- Previous/next page links - displayed on every page -->
+    
+        <nav class="pagination" role="pagination">
+    
+    <span class="page-number"> Page 1 of 2 </span>
+     
+        <a class="older-posts" href="/snow-blogpage2/" title="Next Page">Older Posts &raquo;</a>
+     
+</nav>
+    
 
-</div>
+
+</main>
 
 
         <footer class="site-footer clearfix">
