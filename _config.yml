@@ -25,6 +25,9 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 # Build settings
 markdown: kramdown
 theme: minima
+highlighter: rouge
+paginate: 5
+language: 'en-uk'
 plugins:
   - jekyll-feed
 
@@ -46,6 +49,8 @@ exclude:
   - Rakefile
   - _config.yml
   - .travis.yml
+  - Gemfile
+  - Gemfile.lock
   # - node_modules
 #   - vendor/bundle/
 #   - vendor/cache/
