@@ -122,9 +122,7 @@
 
             <p>This is just an <em>ipsis verbis</em> copy of the first example running on the <a href="http://demo.ghost.io">Ghost Demo</a>. This shows how you can use html styling to achieve your hopes.</p>
 
-
 <p>Below is just about everything you’ll need to style in the theme. Check the source code to see the many embedded elements within paragraphs.</p>
-
 
 <hr />
 
@@ -258,7 +256,6 @@
     <span class="nl">width</span><span class="p">:</span> <span class="m">100%</span><span class="p">;</span>
 <span class="p">}</span></code></pre></figure>
 
-
 <figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="c1">// javascript code sample</span>
 <span class="nx">$</span><span class="p">.</span><span class="nx">ajax</span><span class="p">({</span>
   <span class="na">type</span><span class="p">:</span> <span class="s1">'POST'</span><span class="p">,</span>
@@ -291,13 +288,12 @@ import Foundation
   }
 
   // Return a descriptive string for this person
-  func description(offset: Int = 0) -> String {
+  func description(offset: Int = 0) -&gt; String {
     return "\(name) is \(age + offset) years old"
   }
 }
 </code></pre>
 </div>
-
 
 <hr />
 
@@ -347,45 +343,45 @@ The <u>u element</u> example</p>
 <legend>Inputs as descendents of labels (form legend)</legend>
 <label>
 <b>Text input</b>
-<input type="text" value="default value">
+<input type="text" value="default value" />
 </label>
 <label>
 <b>Email input</b>
-<input type="email">
+<input type="email" />
 </label>
 <label>
 <b>Search input</b>
-<input type="search">
+<input type="search" />
 </label>
 <label>
 <b>Tel input</b>
-<input type="tel">
+<input type="tel" />
 </label>
 <label>
 <b>URL input</b>
-<input type="url" placeholder="http://">
+<input type="url" placeholder="http://" />
 </label>
 <label>
 <b>Password input</b>
-<input type="password" value="password">
+<input type="password" value="password" />
 </label>
 <label>
 <b>File input</b>
-<input type="file">
+<input type="file" />
 </label>
 <label>
 <b>Radio input</b>
-<input type="radio" name="rad">
+<input type="radio" name="rad" />
 </label>
 <label>
 <b>Checkbox input</b>
-<input type="checkbox">
+<input type="checkbox" />
 </label>
 <label>
-<input type="radio" name="rad"> Radio input
+<input type="radio" name="rad" /> Radio input
 </label>
 <label>
-<input type="checkbox"> Checkbox input
+<input type="checkbox" /> Checkbox input
 </label>
 <label>
 <b>Select field</b>
@@ -396,16 +392,16 @@ The <u>u element</u> example</p>
 </label>
 <label>
 <b>Textarea</b>
-<textarea cols="30" rows="5" >Textarea text</textarea>
+<textarea cols="30" rows="5">Textarea text</textarea>
 </label>
 </fieldset>
 
 <fieldset>
 <legend>Clickable inputs and buttons</legend>
-<input type="image" src="http://placekitten.com/90/24" alt="Image (input)">
-<input type="reset" value="Reset (input)">
-<input type="button" value="Button (input)">
-<input type="submit" value="Submit (input)">
+<input type="image" src="http://placekitten.com/90/24" alt="Image (input)" />
+<input type="reset" value="Reset (input)" />
+<input type="button" value="Button (input)" />
+<input type="submit" value="Submit (input)" />
 <button type="reset">Reset (button)</button>
 <button type="button">Button (button)</button>
 <button type="submit">Submit (button)</button>
@@ -413,32 +409,32 @@ The <u>u element</u> example</p>
 
 <fieldset id="boxsize">
 <legend>box-sizing tests</legend>
-<div><input type="text" value="text"></div>
-<div><input type="email" value="email"></div>
-<div><input type="search" value="search"></div>
-<div><input type="url" value="http://example.com"></div>
-<div><input type="password" value="password"></div>
+<div><input type="text" value="text" /></div>
+<div><input type="email" value="email" /></div>
+<div><input type="search" value="search" /></div>
+<div><input type="url" value="http://example.com" /></div>
+<div><input type="password" value="password" /></div>
 
-<div><input type="color" value="#000000"></div>
-<div><input type="number" value="5"></div>
-<div><input type="range" value="10"></div>
-<div><input type="date" value="1970-01-01"></div>
-<div><input type="month" value="1970-01"></div>
-<div><input type="week" value="1970-W01"></div>
-<div><input type="time" value="18:23"></div>
-<div><input type="datetime" value="1970-01-01T00:00:00Z"></div>
-<div><input type="datetime-local" value="1970-01-01T00:00"></div>
+<div><input type="color" value="#000000" /></div>
+<div><input type="number" value="5" /></div>
+<div><input type="range" value="10" /></div>
+<div><input type="date" value="1970-01-01" /></div>
+<div><input type="month" value="1970-01" /></div>
+<div><input type="week" value="1970-W01" /></div>
+<div><input type="time" value="18:23" /></div>
+<div><input type="datetime" value="1970-01-01T00:00:00Z" /></div>
+<div><input type="datetime-local" value="1970-01-01T00:00" /></div>
 
-<div><input type="radio"></div>
-<div><input type="checkbox"></div>
+<div><input type="radio" /></div>
+<div><input type="checkbox" /></div>
 
 <div><select><option>Option 01</option><option>Option 02</option></select></div>
-<div><textarea cols="30" rows="5" >Textarea text</textarea></div>
+<div><textarea cols="30" rows="5">Textarea text</textarea></div>
 
-<div><input type="image" src="http://placekitten.com/90/24" alt="Image (input)"></div>
-<div><input type="reset" value="Reset (input)"></div>
-<div><input type="button" value="Button (input)"></div>
-<div><input type="submit" value="Submit (input)"></div>
+<div><input type="image" src="http://placekitten.com/90/24" alt="Image (input)" /></div>
+<div><input type="reset" value="Reset (input)" /></div>
+<div><input type="button" value="Button (input)" /></div>
+<div><input type="submit" value="Submit (input)" /></div>
 
 <div><button type="reset">Reset (button)</button></div>
 <div><button type="button">Button (button)</button></div>
@@ -456,7 +452,7 @@ The <u>u element</u> example</p>
 
 <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
 
-<iframe src="//player.vimeo.com/video/103224792?title=0&amp;byline=0&amp;portrait=0" width="600" height="338" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<iframe src="//player.vimeo.com/video/103224792?title=0&amp;byline=0&amp;portrait=0" width="600" height="338" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
 
 <p>Culpa qui officia deserunt mollit anim id est laborum.</p>
 
@@ -464,7 +460,7 @@ The <u>u element</u> example</p>
 
 <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
 
-<script async class="speakerdeck-embed" data-id="34d2856027ce01316b5d621ab8e7d421" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
+<script async="" class="speakerdeck-embed" data-id="34d2856027ce01316b5d621ab8e7d421" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
 
 <p>Culpa qui officia deserunt mollit anim id est laborum.</p>
 
@@ -480,7 +476,7 @@ The <u>u element</u> example</p>
 
 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
 
-<p><div data-height="268" data-theme-id="0" data-slug-hash="bcqhe" data-default-tab="js" data-user="rglazebrook" class='codepen'></p>
+<p><div data-height="268" data-theme-id="0" data-slug-hash="bcqhe" data-default-tab="js" data-user="rglazebrook" class="codepen">
 
 <pre><code>var c = new Sketch.create({autoclear: false}),
     bigCircle = 50,
@@ -525,11 +521,12 @@ c.draw = function() {
 }
 </code></pre>
 
-<p>See the Pen <a href='http://codepen.io/rglazebrook/pen/bcqhe/'>Simple Rotating Spinner</a> by Rob Glazebrook (<a href='http://codepen.io/rglazebrook'>@rglazebrook</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
+<p>See the Pen <a href="http://codepen.io/rglazebrook/pen/bcqhe/">Simple Rotating Spinner</a> by Rob Glazebrook (<a href="http://codepen.io/rglazebrook">@rglazebrook</a>) on <a href="http://codepen.io">CodePen</a>.</p>
 
-<p></div><script async src="//codepen.io/assets/embed/ei.js"></script></p>
+<p><script async="" src="//codepen.io/assets/embed/ei.js"></script></p>
 
 <p>Isn't it beautiful?</p>
+</div></p>
 
 
         </section>
