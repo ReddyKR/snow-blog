@@ -5,16 +5,16 @@
    
       <title></title>
    
-   <link></link>
-   <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</description>
+   <link>http://JahnelGroup.github.io/snow-blog/</link>
+   <description>A blog about ServiceNow</description>
    <language>en-uk</language>
-   <managingEditor> </managingEditor>
+   <managingEditor> Darrin Jahnel</managingEditor>
    <atom:link href="rss" rel="self" type="application/rss+xml" />
    
 	<item>
 	  <title>A Full and Comprehensive Style Test</title>
 	  <link>/snow-blog/a-full-and-comprehensive-style-test</link>
-	  <author></author>
+	  <author>Darrin Jahnel</author>
 	  <pubDate>2014-09-27T10:18:00+00:00</pubDate>
 	  <guid>/snow-blog/a-full-and-comprehensive-style-test</guid>
 	  <description><![CDATA[
@@ -434,7 +434,7 @@ c.draw = function() {
 	<item>
 	  <title>The Businessman & the fisherman</title>
 	  <link>/snow-blog/the-businessman-and-fisherman</link>
-	  <author></author>
+	  <author>Darrin Jahnel</author>
 	  <pubDate>2014-08-12T10:18:00+00:00</pubDate>
 	  <guid>/snow-blog/the-businessman-and-fisherman</guid>
 	  <description><![CDATA[
@@ -478,7 +478,7 @@ c.draw = function() {
 	<item>
 	  <title>I Have a Dream</title>
 	  <link>/snow-blog/i-have-a-dream</link>
-	  <author></author>
+	  <author>Darrin Jahnel</author>
 	  <pubDate>1963-08-28T10:18:00+00:00</pubDate>
 	  <guid>/snow-blog/i-have-a-dream</guid>
 	  <description><![CDATA[
@@ -586,7 +586,7 @@ c.draw = function() {
 	<item>
 	  <title>The Purpose of Education</title>
 	  <link>/snow-blog/the-purpose-of-education</link>
-	  <author></author>
+	  <author>Darrin Jahnel</author>
 	  <pubDate>1948-12-12T10:18:00+00:00</pubDate>
 	  <guid>/snow-blog/the-purpose-of-education</guid>
 	  <description><![CDATA[
@@ -614,7 +614,7 @@ c.draw = function() {
 	<item>
 	  <title>Out to Sea</title>
 	  <link>/snow-blog/out-to-sea</link>
-	  <author></author>
+	  <author>Darrin Jahnel</author>
 	  <pubDate>1912-07-24T10:18:00+00:00</pubDate>
 	  <guid>/snow-blog/out-to-sea</guid>
 	  <description><![CDATA[
@@ -704,7 +704,7 @@ c.draw = function() {
 	<item>
 	  <title>Looking-Glass house</title>
 	  <link>/snow-blog/looking-glass-house</link>
-	  <author></author>
+	  <author>Darrin Jahnel</author>
 	  <pubDate>1871-03-18T10:18:00+00:00</pubDate>
 	  <guid>/snow-blog/looking-glass-house</guid>
 	  <description><![CDATA[
@@ -747,7 +747,7 @@ The poor King looked puzzled and unhappy, and struggled with the pencil for some
 	<item>
 	  <title>Down The Rabbit Hole</title>
 	  <link>/snow-blog/down-the-rabbit-hole</link>
-	  <author></author>
+	  <author>Darrin Jahnel</author>
 	  <pubDate>1865-11-26T10:18:00+00:00</pubDate>
 	  <guid>/snow-blog/down-the-rabbit-hole</guid>
 	  <description><![CDATA[
@@ -811,7 +811,7 @@ The poor King looked puzzled and unhappy, and struggled with the pencil for some
 	<item>
 	  <title>Gettysburg Address</title>
 	  <link>/snow-blog/gettysburg-address</link>
-	  <author></author>
+	  <author>Darrin Jahnel</author>
 	  <pubDate>1863-11-19T10:18:00+00:00</pubDate>
 	  <guid>/snow-blog/gettysburg-address</guid>
 	  <description><![CDATA[

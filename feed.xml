@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title> - Articles</title>
-    <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</description>
+    <title>Jahnel Group ServiceNow Blog - Articles</title>
+    <description>A blog about ServiceNow</description>
     <link>
-    </link>
+    http://JahnelGroup.github.io/snow-blog/</link>
     
       
       <item>
@@ -16,8 +16,8 @@
         
         <pubDate>Sat, 27 Sep 2014 10:18:00 +0000</pubDate>
         <link>
-        /a-full-and-comprehensive-style-test</link>
-        <guid isPermaLink="true">/a-full-and-comprehensive-style-test</guid>
+        http://JahnelGroup.github.io/snow-blog//a-full-and-comprehensive-style-test</link>
+        <guid isPermaLink="true">http://JahnelGroup.github.io/snow-blog//a-full-and-comprehensive-style-test</guid>
       </item>
       
     
@@ -31,8 +31,8 @@
         
         <pubDate>Tue, 12 Aug 2014 10:18:00 +0000</pubDate>
         <link>
-        /the-businessman-and-fisherman</link>
-        <guid isPermaLink="true">/the-businessman-and-fisherman</guid>
+        http://JahnelGroup.github.io/snow-blog//the-businessman-and-fisherman</link>
+        <guid isPermaLink="true">http://JahnelGroup.github.io/snow-blog//the-businessman-and-fisherman</guid>
       </item>
       
     
@@ -46,8 +46,8 @@
         
         <pubDate>Wed, 28 Aug 1963 10:18:00 +0000</pubDate>
         <link>
-        /i-have-a-dream</link>
-        <guid isPermaLink="true">/i-have-a-dream</guid>
+        http://JahnelGroup.github.io/snow-blog//i-have-a-dream</link>
+        <guid isPermaLink="true">http://JahnelGroup.github.io/snow-blog//i-have-a-dream</guid>
       </item>
       
     
@@ -61,8 +61,8 @@
         
         <pubDate>Sun, 12 Dec 1948 10:18:00 +0000</pubDate>
         <link>
-        /the-purpose-of-education</link>
-        <guid isPermaLink="true">/the-purpose-of-education</guid>
+        http://JahnelGroup.github.io/snow-blog//the-purpose-of-education</link>
+        <guid isPermaLink="true">http://JahnelGroup.github.io/snow-blog//the-purpose-of-education</guid>
       </item>
       
     
@@ -76,8 +76,8 @@
         
         <pubDate>Wed, 24 Jul 1912 10:18:00 +0000</pubDate>
         <link>
-        /out-to-sea</link>
-        <guid isPermaLink="true">/out-to-sea</guid>
+        http://JahnelGroup.github.io/snow-blog//out-to-sea</link>
+        <guid isPermaLink="true">http://JahnelGroup.github.io/snow-blog//out-to-sea</guid>
       </item>
       
     
@@ -93,8 +93,8 @@ But the black kitten had been finished with earlier in the afternoon, and so, wh
         
         <pubDate>Sat, 18 Mar 1871 10:18:00 +0000</pubDate>
         <link>
-        /looking-glass-house</link>
-        <guid isPermaLink="true">/looking-glass-house</guid>
+        http://JahnelGroup.github.io/snow-blog//looking-glass-house</link>
+        <guid isPermaLink="true">http://JahnelGroup.github.io/snow-blog//looking-glass-house</guid>
       </item>
       
     
@@ -108,8 +108,8 @@ But the black kitten had been finished with earlier in the afternoon, and so, wh
         
         <pubDate>Sun, 26 Nov 1865 10:18:00 +0000</pubDate>
         <link>
-        /down-the-rabbit-hole</link>
-        <guid isPermaLink="true">/down-the-rabbit-hole</guid>
+        http://JahnelGroup.github.io/snow-blog//down-the-rabbit-hole</link>
+        <guid isPermaLink="true">http://JahnelGroup.github.io/snow-blog//down-the-rabbit-hole</guid>
       </item>
       
     
@@ -123,8 +123,8 @@ But the black kitten had been finished with earlier in the afternoon, and so, wh
         
         <pubDate>Thu, 19 Nov 1863 10:18:00 +0000</pubDate>
         <link>
-        /gettysburg-address</link>
-        <guid isPermaLink="true">/gettysburg-address</guid>
+        http://JahnelGroup.github.io/snow-blog//gettysburg-address</link>
+        <guid isPermaLink="true">http://JahnelGroup.github.io/snow-blog//gettysburg-address</guid>
       </item>
       
     
