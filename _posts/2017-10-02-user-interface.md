@@ -2,7 +2,7 @@
 layout: post
 cover: 'assets/images/cover4.jpg'
 title: A Beginner’s Insight into the User Interface on ServiceNow
-date:   2014-09-27 10:18:00
+date:   2017-10-02 10:00:00
 tags: tips
 subclass: 'post tag-test tag-content'
 categories: 'casper'

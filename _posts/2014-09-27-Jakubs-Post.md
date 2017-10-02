@@ -7,7 +7,7 @@ tags: platform
 subclass: 'post tag-test tag-content'
 categories: 'casper'
 navigation: True
-author: 'Jakub Synoweic'
+author: 'Jakub Synowiec'
 nickname: jakub
 bio: "Certified ServiceNow Application Developer"
 image: 'assets/images/jsynowiec.jpg'
