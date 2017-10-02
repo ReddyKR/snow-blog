@@ -31,7 +31,7 @@ plugins:
 #GitHub
 USERNAME: JahnelGroup
 repo: snow-blog
-branch: ''
+branch: 'master'
 
 #Jekyll source / destination
 destination: ../master/
