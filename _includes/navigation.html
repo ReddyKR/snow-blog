@@ -6,8 +6,8 @@
     <ul>
         <li class="nav-home {% if page.current == 'home' %} nav-current{% endif %}" role="presentation"><a href="{{ site.baseurl }}">Home</a></li>
         <li class="nav-about {% if page.current == 'about' %} nav-current{% endif %}" role="presentation"><a href="{{ site.baseurl }}about">About</a></li>
-        <li class="nav-fables {% if page.url contains 'platform' %} nav-current{% endif %}" role="presentation"><a href="{{ site.baseurl }}tag/platform">Platform</a></li>
-        <li class="nav-speeches {% if page.url contains 'tips' %} nav-current{% endif %}" role="presentation"><a href="{{ site.baseurl }}tag/tips">Tips</a></li>
+        <li class="nav-platform {% if page.url contains 'platform' %} nav-current{% endif %}" role="presentation"><a href="{{ site.baseurl }}tag/platform">Platform</a></li>
+        <li class="nav-tips {% if page.url contains 'tips' %} nav-current{% endif %}" role="presentation"><a href="{{ site.baseurl }}tag/tips">Tips</a></li>
     </ul>
     <a class="subscribe-button icon-feed" href="{{ site.baseurl }}feed.xml">Subscribe</a>
 </div>
