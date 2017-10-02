@@ -201,7 +201,7 @@ namespace :site do
     if ENV["TRAVIS"]
       sh "git config --global user.name '#{ENV['GIT_NAME']}'"
       sh "git config --global user.email '#{ENV['GIT_EMAIL']}'"
-      sh "git config --global user.token '#{ENV['GH_TOKEN']}'"
+      sh "git config --global user.token 'd1d7043ecde0d885de46485b2d3ada557541be95'"
       sh "git config --global push.default simple"
     end
 
