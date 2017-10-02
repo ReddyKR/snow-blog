@@ -13,14 +13,26 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Jahnel Group Service Now Blog
-email: your-email@example.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+
+name: 'Jahnel Group ServiceNow Blog'
+description: "A blog about ServiceNow"
+
+# Author's info
+author: 'Darrin Jahnel'
+# edit 'categories' in the front matter of every post to match this username
+nickname: JG
+bio: 'Software development and consulting'
+location: 'Schenectady, USA'
+
 baseurl: "/snow-blog" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "http://JahnelGroup.github.io/snow-blog/" # the base hostname & protocol for your site, e.g. http://example.com
+image: 'assets/images/casper.png'
+disqus: username
+
+# Permalinks
+permalink: /:title
+# permalink: /author/:username
+# permalink: /tag/:tag
 
 # Build settings
 markdown: kramdown
@@ -42,10 +54,6 @@ branch: 'master'
 destination: ../master/
 relative_source: ../gh-pages/
 
-# Permalinks
-permalink: /:title
-# permalink: /author/:username
-# permalink: /tag/:tag
 
 # gems and other configs
 gems: [jekyll-paginate]
