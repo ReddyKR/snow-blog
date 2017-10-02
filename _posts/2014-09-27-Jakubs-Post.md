@@ -10,7 +10,7 @@ navigation: True
 author: 'Jakub Synoweic'
 nickname: jakub
 bio: "Certified ServiceNow Application Developer"
-image: 'assets/images/jsynoweic.jpg'
+image: 'assets/images/jsynowiec.jpg'
 logo: 'assets/images/jg_logo_white.png'
 ---
 

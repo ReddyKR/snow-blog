@@ -19,7 +19,7 @@ For an application that is consumed by an end user, the best practice is to crea
 </p>
 
 <p>
-  <img src="http://jahnelgroup.github.io/snow-blog/images/UserInter/BasicSite.jpg" alt="Test Image" />
+  <img src="assets/images/UserInter/BasicSite.jpg" alt="Test Image" />
 </p>
 
 <p>
