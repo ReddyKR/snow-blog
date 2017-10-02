@@ -30,10 +30,10 @@ For an application that is consumed by an end user, the best practice is to crea
 
 <hr />
 
-<h2 id="angular4">The Angular2/4 Experiment</h2>
+<h3 id="angular4">The Angular2/4 Experiment</h3>
 
 <p>
-Angular 4, formerly Angular 2, is the newest version of the popular AngularJS front-end framework led by the Angular Team at Google. For new projects that are not weighed down by legacy projects or pre-existing requirements, it’s great to use a newer version of a tool. Pair Angular 2/4 up with angular-cli and you have a great system of generating files, testing, and managing front-end development. That said, it’s a shame ServiceNow does not currently support it (Jakarta).  If developers do want to pursue this route, it would most likely be a stand-alone front-end app that would use ServiceNow as their back-end. It would save a lot of headache just waiting for ServiceNow to support it, but it is feasible. Check out Nathan Grove’s Angular 2 set-up and the workshop he led on a sample Angular2 App:
+<a href="http://angularjs.blogspot.com/2017/03/angular-400-now-available.html">Angular 4</a>, formerly Angular 2, is the newest version of the popular AngularJS front-end framework led by the Angular Team at Google. For new projects that are not weighed down by legacy projects or pre-existing requirements, it’s great to use a newer version of a tool. Pair Angular 2/4 up with angular-cli and you have a great system of generating files, testing, and managing front-end development. That said, it’s a shame ServiceNow does not currently support it (Jakarta).  If developers do want to pursue this route, it would most likely be a stand-alone front-end app that would use ServiceNow as their back-end. It would save a lot of headache just waiting for ServiceNow to support it, but it is feasible. Check out Nathan Grove’s Angular 2 set-up and the workshop he led on a sample Angular2 App:
 </p>
 
 <p><a href="https://community.servicenow.com/docs/DOC-6626">Angular2 Development Environment</a></p>
@@ -42,19 +42,17 @@ Angular 4, formerly Angular 2, is the newest version of the popular AngularJS fr
 <p>
   <img src="assets/images/UserInter/Angular4_Attach_Test.gif" alt="Angular4 Test Attachment" />
 </p>
-<p>
-The demo actually posts an image to a specific record. From the Rest API Explorer, we can update the record and even see it.
-</p>
+<p><small>
+This demo actually posts an image to a specific record. From the Rest API Explorer, we can update the record and even see it.
+</small></p>
 
 <p>
   <img src="assets/images/UserInter/Angular4_Attach_Application.gif" alt="Angular4 Application Attachment" />
 </p>
-<p>
+<p><small>
 Much like the REST API, we can actually use Nathan Grove's application to create an image, list all the records of specific table, and then attach the image onto it.
-</p>
+</small></p>
 
 <p>
 It seems to defeat the purpose of building something outside of ServiceNow and miss out in features built into the platform, but there is merit in having loosely coupled applications. It would be simple enough for you to move from ServiceNow and attach this onto some other framework if you needed to. If we want to stay on the platform, however, we could jump back to what ServiceNow currently supports: AngularJS.
 <p>
-
-<hr />
