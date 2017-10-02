@@ -18,10 +18,7 @@ name: 'Jahnel Group ServiceNow Blog'
 description: "A blog about ServiceNow"
 
 # Author's info
-author: 'Darrin Jahnel'
 # edit 'categories' in the front matter of every post to match this username
-nickname: JG
-bio: 'Software development and consulting'
 location: 'Schenectady, USA'
 
 baseurl: "/snow-blog/" # the subpath of your site, e.g. /blog
