@@ -1,0 +1,24 @@
+johnl:
+  nickname: 'johnl'
+  name: "John Lee"
+  bio: 'Software developer'
+  location: 'Schenectady, NY'
+  image: ''
+  url: ''
+  short_url: ''
+dylanm:
+   nickname: 'dylanm'
+   name: "Dylan Manns"
+   bio: 'ServiceNow Sys Admin'
+   location: 'Schenectady, NY'
+   image: ''
+   url: ''
+   short_url: ''
+jakubs:
+   nickname: 'jakubs'
+   name: "Jakub Synowiec"
+   bio: 'ServiceNow Developer'
+   location: 'Ghostland'
+   image: ''
+   url: ''
+   short_url: ''
