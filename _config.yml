@@ -32,6 +32,8 @@ plugins:
   - jekyll-feed
 
 #GitHub
+safe: false
+lsi: false
 username: JahnelGroup
 repo: snow-blog
 branch: 'master'
@@ -39,6 +41,15 @@ branch: 'master'
 #Jekyll source / destination
 destination: ../master/
 relative_source: ../gh-pages/
+
+# Permalinks
+permalink: /:title
+# permalink: /author/:username
+# permalink: /tag/:tag
+
+# gems and other configs
+gems: [jekyll-paginate]
+exclude: [vendor]
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
