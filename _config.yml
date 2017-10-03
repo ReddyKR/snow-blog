@@ -21,7 +21,7 @@ description: "A blog about ServiceNow"
 # edit 'categories' in the front matter of every post to match this username
 location: 'Schenectady, USA'
 
-baseurl: "/" # the subpath of your site, e.g. /blog
+baseurl: "/snow-blog/" # the subpath of your site, e.g. /blog
 url: "http://JahnelGroup.github.io/snow-blog/" # the base hostname & protocol for your site, e.g. http://example.com
 image: 'assets/images/casper.png'
 disqus: username
