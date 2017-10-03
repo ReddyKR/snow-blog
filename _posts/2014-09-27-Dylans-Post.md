@@ -8,7 +8,7 @@ subclass: 'post tag-test tag-content'
 categories: 'dylanmann'
 navigation: True
 author: 'Dylan Mann'
-nickname: Dylan
+nickname: dylanmann
 bio: "Certified ServiceNow system admin"
 image: 'assets/images/dmann.jpg'
 logo: 'assets/images/jg_logo_white.png'

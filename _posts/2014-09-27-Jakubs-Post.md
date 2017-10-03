@@ -8,7 +8,7 @@ subclass: 'post tag-test tag-content'
 categories: 'jakubsynowiec'
 navigation: True
 author: 'Jakub Synowiec'
-nickname: jakub
+nickname: jakubsynowiec
 bio: "Certified ServiceNow Application Developer"
 image: 'assets/images/jsynowiec.jpg'
 logo: 'assets/images/jg_logo_white.png'
