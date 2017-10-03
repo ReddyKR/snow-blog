@@ -25,6 +25,9 @@ logo: 'assets/images/jg_logo_white.png'
 
 <h2 id="heading2">Heading 2</h2>
 
+
+
+
 <h3 id="heading3">Heading 3</h3>
 
 <h4 id="heading4">Heading 4</h4>
