@@ -5,7 +5,7 @@ title: Jakub Test
 date:   2014-09-27 10:18:00
 tags: platform
 subclass: 'post tag-test tag-content'
-categories: 'jakubsynowiec'
+categories: jakubsynowiec
 navigation: True
 author: 'Jakub Synowiec'
 nickname: jakubsynowiec

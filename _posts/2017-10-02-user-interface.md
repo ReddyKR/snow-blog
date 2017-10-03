@@ -5,7 +5,7 @@ title: A Beginner’s Insight into the User Interface on ServiceNow
 date:   2017-10-02 10:00:00
 tags: tips
 subclass: 'post tag-test tag-content'
-categories: 'johnlee'
+categories: johnlee
 navigation: True
 author: 'John Lee'
 nickname: johnlee

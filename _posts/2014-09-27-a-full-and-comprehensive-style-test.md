@@ -5,7 +5,7 @@ title: A Full and Comprehensive Style Test
 date:   2014-09-27 10:18:00
 tags: platform
 subclass: 'post tag-test tag-content'
-categories: 'johnlee'
+categories: johnlee
 navigation: True
 author: 'John Lee'
 nickname: johnlee
@@ -15,7 +15,7 @@ logo: 'assets/images/jg_logo_white.png'
 ---
 
 <p>This is just an <em>ipsis verbis</em> copy of the first example running on the <a href="http://demo.ghost.io">Ghost Demo</a>. This shows how you can use html styling to achieve your hopes.</p>
-<p>WHATEVER MORE AND MORE</p>
+<p>WHATEVER MORE AND MORE AND MORE</p>
 
 
 <p>Below is just about everything you’ll need to style in the theme. Check the source code to see the many embedded elements within paragraphs.</p>
