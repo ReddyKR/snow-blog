@@ -5,7 +5,7 @@
    
       <title></title>
    
-   <link>http://JahnelGroup.github.io</link>
+   <link>http://JahnelGroup.github.io/snow-blog/</link>
    <description>A blog about ServiceNow</description>
    <language>en-uk</language>
    <managingEditor> dylanmann</managingEditor>
@@ -13,10 +13,10 @@
    
 	<item>
 	  <title>Dylan Test</title>
-	  <link>//Dylans-Post</link>
+	  <link>/snow-blog//Dylans-Post</link>
 	  <author>dylanmann</author>
 	  <pubDate>2014-09-27T10:18:00+00:00</pubDate>
-	  <guid>//Dylans-Post</guid>
+	  <guid>/snow-blog//Dylans-Post</guid>
 	  <description><![CDATA[
 	     <p>This is just an <em>ipsis verbis</em> copy of the first example running on the <a href="http://demo.ghost.io">Ghost Demo</a>. This shows how you can use html styling to achieve your hopes.</p>
 
