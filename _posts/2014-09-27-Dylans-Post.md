@@ -5,10 +5,10 @@ title: Dylan Test
 date:   2014-09-27 10:18:00
 tags: platform
 subclass: 'post tag-test tag-content'
-categories: 'dylanmann'
+categories: dylanmann
 navigation: True
 author: 'Dylan Mann'
-nickname: Dylan
+nickname: dylanmann
 bio: "Certified ServiceNow system admin"
 image: 'assets/images/dmann.jpg'
 logo: 'assets/images/jg_logo_white.png'
