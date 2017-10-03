@@ -5,7 +5,6 @@ module Jekyll
     safe true
 
     def generate(site)
-      puts 'temporarry message'
       site.tags.each do |tag|
         build_subpages(site, "tag", tag)
       end
