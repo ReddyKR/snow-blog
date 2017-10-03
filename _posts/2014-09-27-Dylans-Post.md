@@ -5,7 +5,7 @@ title: Dylan Test
 date:   2014-09-27 10:18:00
 tags: platform
 subclass: 'post tag-test tag-content'
-categories: 'casper'
+categories: 'dylanmann'
 navigation: True
 author: 'Dylan Mann'
 nickname: Dylan

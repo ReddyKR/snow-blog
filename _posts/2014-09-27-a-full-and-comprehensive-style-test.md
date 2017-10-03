@@ -5,7 +5,7 @@ title: A Full and Comprehensive Style Test
 date:   2014-09-27 10:18:00
 tags: platform
 subclass: 'post tag-test tag-content'
-categories: 'casper'
+categories: 'johnlee'
 navigation: True
 author: 'John Lee'
 nickname: john
