@@ -13,10 +13,10 @@
    
 	<item>
 	  <title>Jakub Test</title>
-	  <link>/snow-blog//Jakubs-Post</link>
+	  <link>//Jakubs-Post</link>
 	  <author>jakubsynowiec</author>
 	  <pubDate>2014-09-27T10:18:00+00:00</pubDate>
-	  <guid>/snow-blog//Jakubs-Post</guid>
+	  <guid>//Jakubs-Post</guid>
 	  <description><![CDATA[
 	     <p>This is just an <em>ipsis verbis</em> copy of the first example running on the <a href="http://demo.ghost.io">Ghost Demo</a>. This shows how you can use html styling to achieve your hopes.</p>
 

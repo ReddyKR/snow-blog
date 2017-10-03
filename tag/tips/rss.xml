@@ -13,10 +13,10 @@
    
 	<item>
 	  <title>A Beginner’s Insight into the User Interface on ServiceNow</title>
-	  <link>/snow-blog//user-interface</link>
+	  <link>//user-interface</link>
 	  <author>John Lee</author>
 	  <pubDate>2017-10-02T10:00:00+00:00</pubDate>
-	  <guid>/snow-blog//user-interface</guid>
+	  <guid>//user-interface</guid>
 	  <description><![CDATA[
 	     <p>
   As a new developer, working on the platform for about 5 months, these are some of the thoughts I have on the front-end development for ServiceNow. This post is targeted towards people that have just gone through ServiceNow’s Learning Plan, started getting used to the platform, or just generally curious on how ServiceNow approaches interfaces/design. Veterans are more than welcome to expand on ideas that are going to be listed here and give any helpful insight.
@@ -61,6 +61,126 @@ Extending further pass the REST API test, we can actually use Nathan Grove's app
 <p>
 It seems to defeat the purpose of building something outside of ServiceNow and miss out in features built into the platform, but there is merit in having loosely coupled applications. It would be simple enough for you to move from ServiceNow and attach this onto some other framework if you needed to. If we want to stay on the platform, however, we could jump back to what ServiceNow currently supports: AngularJS.
 <p>
+<hr />
+
+<h3>The AngularJS Application</h3>
+<p>
+If you’ve gone through the Learning Plan, you should have run through the "<a href="https://developer.servicenow.com/app.do#!/lp/new_to_servicenow/app_store_learnv2_angularjs_jakarta_introduction_to_angularjs_apps_in_servicenow_objectives?v=jakarta">Introduction to AngularJS in ServiceNow</a>". If not, I highly recommend going through "<a href="https://developer.servicenow.com/app.do#!/lp/new_to_servicenow?v=jakarta">New to ServiceNow</a>" Learning Plan if you’re interested in the platform or studying for the certification exams. Here’s the quick recap:
+</p>
+
+<p>&#8226; Create UI Pages for your application</p>
+<p>&#8226; Within the Jelly Template, insert a script source to AngularJS</p>
+<p>&#8226; Write your AngularJS logic</p>
+<p>&#8226; Application data can be accessed and UI Scripts can be used to create functional front-end</p>
+<p>&#8226; Styling and Bootstrap can be added to enhance the design</p>
+
+<p>
+  <img src="assets/images/UserInter/angularjs_uipage.jpg" alt="AngularJS UI Page" />
+</p>
+<p><small><i>
+The jelly script tags along with the angularJS script and bootstrap link can be seen here.
+</i></small></p>
+
+<p>
+  <img src="assets/images/UserInter/angularjs_uiscript.jpg" alt="AngularJS UI Script" />
+</p>
+<p><small><i>
+Client script logic can be utilized through UI Scripts.
+</i></small></p>
+
+<p>
+  <img src="assets/images/UserInter/AngularJS_Sample.gif" alt="AngularJS Example" />
+</p>
+<p><small><i>
+This simple example here does illustrate some of the nice features, such as two-way data-binding and customized HTML/CSS.
+</i></small></p>
+
+
+<p>
+It’s pretty concise and gives you the basic elements you need to get your application looking nice. However, there are some inherent problems that arise as you scale up your project. You have various references on the UI Page of UI Scripts for Client side scripting, Script Includes/Processing Script for Server side scripting, and CSS styling as well. When you move up and view from the top-down, page navigation gets awkward with endpoints like x_1010_app.do' This seems like it should be separated from your base application and unified. So what is the alternative?
+</p>
+<hr />
+
+<h3>The Content Management System</h3>
+<p>
+  <img src="assets/images/UserInter/CMS_preview.gif" alt="CMS Site" />
+</p>
+<p><small><i>
+Now it looks more like a consumer site!
+</i></small></p>
+
+<p>
+The CMS has been around for years, predating the four most recent releases out today. If you understand Jelly Script and/or have a complex service catalog, this might be the choice for you. As a plugin, it provides a ServiceNow application that creates custom interfaces for the ServiceNow platform and ServiceNow applications. When you want to create a new site within your instance, you can create a new Content Site. This encompasses all the various components where you can customize the HTML, CSS, layout, and more. To access tables and persist data, Developers can access their ServiceNow data through Jelly scripts to retrieve it and iframes display it.  Same, in the sense of the high-level overview, to the previous example but CMS is different in its packaging. The basic structure is:
+</p>
+
+<p>
+  <img src="assets/images/UserInter/CMS_Form.jpg" alt="CMS Site" />
+</p>
+
+<p>&#8226; Content Site</p>
+<p>&#8226; Content Type: Defines how the data is pull from a particular database table and rendered within the site</p>
+<p>&#8226; Content Page: Displays blocks of content</p>
+<p>&#8226; Layout: User Interface macro that defines a HTML structure</p>
+<p>&#8226; Dropzone: Define where the content blocks are placed to make up the page</p>
+<p>&#8226; Content Block: Chunks of HTML that make-up a page, the output is HTML</p>
+<p>&#8226; Theme</p>
+<p>&#8226; CSS</p>
+
+<p>
+The front-end design here is bundled together. Compare that to the multiple UI pages and UI Scripts, it’s good to see a contained, pre-defined hierarchy that we can play around with. While this does seem intuitive, I recommend not focusing on this method too much and trying the next one, for reasons discussed later.
+</p>
+<hr />
+
+<h3>The Service Portal</h3>
+<p>
+  <img src="assets/images/UserInter/SP_website.gif" alt="Service Portal Site" />
+</p>
+<p><small><i>
+The Service Portal allows for further customizations that are not available on the Content Management System.
+</i></small></p>
+
+The Service Portal seems to be the standard when attempting to create a better user experience on ServiceNow. It utilizes AngularJS and acts more as a visual layer that sits on top of ServiceNow. Much like a Content Site for the CMS, the Service Portal has ‘Portals’ to the site you want to redirect your users to. From the newly created portal record, you can set things like the URL suffix, the default homepage, the 404 page, and much more. It also includes great additions like global CSS variables, menu set-up, and a Theme for the entire portal.
+
+<p>
+  <img src="assets/images/UserInter/ServicePortal.jpg" alt="Portal Example" />
+</p>
+<p><small><i>
+Looks very similar to that of the CMS main window.
+</i></small></p>
+
+<p>
+From here, pages can be created and linked to the portal itself. Within those pages are the most interesting part of the Service Portal: widgets. These act as self-contained HTML, CSS, Client script, and Server script blocks that can be arranged and reused on portal pages.
+</p>
+
+<p>
+  <img src="assets/images/UserInter/Widget.jpg" alt="Widget Example" />
+</p>
+<p><small><i>
+Everything you need to develop a widget; easily accessible, side-by-side.
+</i></small></p>
+
+
+<p>The TechNow talks are great places to start if you want to go this route.</p>
+<p>&#8226; <a href="https://www.youtube.com/watch?v=wzCGZ5Mq5iU">Ask the Experts – TechNow Ep 28 – Service Portal</a></p>
+<p>&#8226; <a href="https://www.youtube.com/watch?v=HtOpbk_00Qw">Ask the Experts: Service Portal Part 2, TechNow 29</a></p>
+
+<p>This seems eerily familiar to the CMS, so why choose one over the other?</p>
+<hr />
+
+<h3>CMS vs Service Portal</h3>
+<p>
+You can see forums on this topic that are fairly recent. Service Portal, in a developer perspective, is simply easier to use. CMS and Service Portal are separate entities. While CMS is prone to having update conflicts, Service Portal is a self-enclosed application independent from any new versions that get released. Another point for Service Portal is the lack of Jelly Script and iframes. Jelly script is not widely popular and makes it difficult to find proper/helpful documentation. With iframes, they are difficult to style and would be susceptible to upgrade issues. Service Portal uses AngularJS, a popular framework, and being just a visual layer allows it for better control of the page design. The downside of the Service Portal would be that it only allows for one Catalog per portal out of the box, whereas the CMS iframes can handle the need for complex catalogs.
+</p>
+<p>
+For a more thorough discussion on this topic, check out Goran Lundqvist and Brad Tilton’s thoughts on the matter:
+</p>
+<p>&#8226; <a href="https://community.servicenow.com/community/develop/blog/2016/07/22/service-portal-and-cms-thoughts">Service Portal and CMS Thoughts</a></p>
+<p>&#8226; <a href="https://community.servicenow.com/community/develop/blog/2017/05/16/do-i-dare-to-move-from-cms-to-service-portal">Do I dare to move from CMS to Service Portal</a></p>
+
+<h3>Up Next?</h3>
+<p>
+It’s short-sighted to say that these will be the only options available for ServiceNow. The company aims to do two major releases a year and is steadily growing. With more developers coming on board to build on the platform, the company will be more than likely to accommodate them with the most practical and widely used frameworks and tools. So while Angular 4 is not currently available, we might see it in the near future along with React, Redux, and many others.
+</p>
 </p></p>
 
 	  ]]></description>
