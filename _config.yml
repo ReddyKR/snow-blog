@@ -37,10 +37,7 @@ theme: minima
 highlighter: rouge
 paginate: 5
 language: 'en-uk'
-plugins:
-  - jekyll-feed
-  - jekyll-autgenerator
-  - jekyll-catgenerator
+
 
 #GitHub
 safe: false

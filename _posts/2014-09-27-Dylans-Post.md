@@ -19,7 +19,7 @@ logo: 'assets/images/jg_logo_white.png'
 
 <p>Below is just about everything you’ll need to style in the theme. Check the source code to see the many embedded elements within paragraphs.</p>
 
-
+# HEADER CHANGE
 <hr />
 
 <h1 id="heading1">Heading 1</h1>
