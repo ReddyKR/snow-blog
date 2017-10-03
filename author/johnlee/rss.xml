@@ -13,10 +13,10 @@
    
 	<item>
 	  <title>A Beginner’s Insight into the User Interface on ServiceNow</title>
-	  <link>/snow-blog//user-interface</link>
+	  <link>//user-interface</link>
 	  <author>johnlee</author>
 	  <pubDate>2017-10-02T10:00:00+00:00</pubDate>
-	  <guid>/snow-blog//user-interface</guid>
+	  <guid>//user-interface</guid>
 	  <description><![CDATA[
 	     <p>
   As a new developer, working on the platform for about 5 months, these are some of the thoughts I have on the front-end development for ServiceNow. This post is targeted towards people that have just gone through ServiceNow’s Learning Plan, started getting used to the platform, or just generally curious on how ServiceNow approaches interfaces/design. Veterans are more than welcome to expand on ideas that are going to be listed here and give any helpful insight.
@@ -188,10 +188,10 @@ It’s short-sighted to say that these will be the only options available for Se
 
 	<item>
 	  <title>A Full and Comprehensive Style Test</title>
-	  <link>/snow-blog//a-full-and-comprehensive-style-test</link>
+	  <link>//a-full-and-comprehensive-style-test</link>
 	  <author>johnlee</author>
 	  <pubDate>2014-09-27T10:18:00+00:00</pubDate>
-	  <guid>/snow-blog//a-full-and-comprehensive-style-test</guid>
+	  <guid>//a-full-and-comprehensive-style-test</guid>
 	  <description><![CDATA[
 	     <p>This is just an <em>ipsis verbis</em> copy of the first example running on the <a href="http://demo.ghost.io">Ghost Demo</a>. This shows how you can use html styling to achieve your hopes.</p>
 <p>WHATEVER MORE AND MORE AND MORE</p>
