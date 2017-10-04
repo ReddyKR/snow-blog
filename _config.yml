@@ -16,6 +16,7 @@
 
 name: 'Jahnel Group ServiceNow Blog'
 description: "A blog about ServiceNow"
+google_analytics: UA-91305857-2;
 
 # Author's info
 # edit 'categories' in the front matter of every post to match this username
