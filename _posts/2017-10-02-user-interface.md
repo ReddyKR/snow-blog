@@ -22,6 +22,7 @@ For an application that is consumed by an end user, the best practice is to crea
 
 …But is it done? It isn’t some sort of JSON being displayed on a command window but it is bare in aesthetics. What if you want a more engaging interface for your users? The list views are practical but ask any front-end developer (or end-user, for that matter) and they’ll immediately ask for alternatives. With over a decade worth of feedback and upgrades, ServiceNow has created other options for developers to make their instances or applications visually appealing. Its interesting to see how much it’s progressed and explore what these options are.
 
+
 ***
 
 ###The Angular2/4 Experiment###
