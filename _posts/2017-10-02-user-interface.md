@@ -8,7 +8,7 @@ subclass: 'post tag-test tag-content'
 categories: johnlee
 navigation: True
 author: 'John Lee'
-nickname: johnlee
+nickname: John Lee
 bio: "Certified ServiceNow Application Developer and System Administrator"
 image: 'assets/images/jlee.jpg'
 logo: 'assets/images/jg_logo_white.png'

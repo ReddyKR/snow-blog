@@ -56,17 +56,17 @@ class: 'post-template'
 
             {% if page.image %}
             <figure class="author-image">
-                <a class="img" href="{{ site.baseurl }}author/{{ page.nickname }}" style="background-image: url({{ site.baseurl }}{{ page.image }})"><span class="hidden">{{ page.author }}'s Picture</span></a>
+                <a class="img" href="{{ site.baseurl }}author/{{ page.categories }}" style="background-image: url({{ site.baseurl }}{{ page.image }})"><span class="hidden">{{ page.author }}'s Picture</span></a>
             </figure>
             {% endif %}
 
             <section class="author">
-                <h4><a href="{{ site.baseurl }}author/{{ page.nickname }}">{{ page.author }}</a></h4>
+                <h4><a href="{{ site.baseurl }}author/{{ page.categories }}">{{ page.author }}</a></h4>
 
                 {% if page.bio %}
                     <p> {{ page.bio }}</p>
                 {% else %}
-                    <p>Read <a href="{{ site.baseurl }}author/{{ page.nickname }}">more posts</a> by this author.</p>
+                    <p>Read <a href="{{ site.baseurl }}author/{{ page.categories }}">more posts</a> by this author.</p>
                 {% endif %}
                 <div class="author-meta">
                     {% if site.location %}<span class="author-location icon-location"> {{ site.location }}</span>{% endif %}
