@@ -41,51 +41,5 @@ For an application that is consumed by an end user, the best practice is to crea
       </item>
       
     
-      
-      <item>
-        <title>A Full and Comprehensive Style Test</title>
-        
-          <description>&lt;p&gt;This is just an &lt;em&gt;ipsis verbis&lt;/em&gt; copy of the first example running on the &lt;a href=&quot;http://demo.ghost.io&quot;&gt;Ghost Demo&lt;/a&gt;. This shows how you can use html styling to achieve your hopes.&lt;/p&gt;
-&lt;p&gt;WHATEVER MORE AND MORE AND MORE&lt;/p&gt;
-
-</description>
-        
-        <pubDate>Sat, 27 Sep 2014 10:18:00 +0000</pubDate>
-        <link>
-        http://JahnelGroup.github.io/snow-blog//a-full-and-comprehensive-style-test</link>
-        <guid isPermaLink="true">http://JahnelGroup.github.io/snow-blog//a-full-and-comprehensive-style-test</guid>
-      </item>
-      
-    
-      
-      <item>
-        <title>Jakub Test</title>
-        
-          <description>&lt;p&gt;This is just an &lt;em&gt;ipsis verbis&lt;/em&gt; copy of the first example running on the &lt;a href=&quot;http://demo.ghost.io&quot;&gt;Ghost Demo&lt;/a&gt;. This shows how you can use html styling to achieve your hopes.&lt;/p&gt;
-
-</description>
-        
-        <pubDate>Sat, 27 Sep 2014 10:18:00 +0000</pubDate>
-        <link>
-        http://JahnelGroup.github.io/snow-blog//Jakubs-Post</link>
-        <guid isPermaLink="true">http://JahnelGroup.github.io/snow-blog//Jakubs-Post</guid>
-      </item>
-      
-    
-      
-      <item>
-        <title>Dylan Test</title>
-        
-          <description>&lt;p&gt;This is just an &lt;em&gt;ipsis verbis&lt;/em&gt; copy of the first example running on the &lt;a href=&quot;http://demo.ghost.io&quot;&gt;Ghost Demo&lt;/a&gt;. This shows how you can use html styling to achieve your hopes.&lt;/p&gt;
-
-</description>
-        
-        <pubDate>Sat, 27 Sep 2014 10:18:00 +0000</pubDate>
-        <link>
-        http://JahnelGroup.github.io/snow-blog//Dylans-Post</link>
-        <guid isPermaLink="true">http://JahnelGroup.github.io/snow-blog//Dylans-Post</guid>
-      </item>
-      
-    
   </channel>
 </rss>
