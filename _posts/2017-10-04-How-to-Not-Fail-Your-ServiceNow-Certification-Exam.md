@@ -3,7 +3,7 @@ layout: post
 cover: 'assets/images/cert_exam_photo.jpeg'
 title: How to Not Fail Your ServiceNow Certification Exam
 date:   2017-10-04 00:00:00
-tags: platform, tips
+tags: platform tips
 subclass: 'post tag-test tag-content'
 categories: dylanmann
 navigation: True
@@ -13,8 +13,6 @@ bio: "Certified ServiceNow System Admin and App Developer"
 image: 'assets/images/dmann.jpg'
 logo: 'assets/images/jg_logo_white.png'
 ---
-
-<h1>How to Not Fail Your ServiceNow Certification Exam</h1>
 
 <p>Want a foolproof plan to guarantee success on your ServiceNow Certification Exam? Well, this isn’t it, but it’s as close as I can get! I’m not offering any guarantees, but what I can offer is a guide which has been proven successful for both myself and the rest of my team. By the end of reading this post my goal is to have you feeling prepared and confident to go out and crush your ServiceNow certification exam!</p>
 
@@ -39,7 +37,7 @@ logo: 'assets/images/jg_logo_white.png'
 <p>I’m putting these blueprints up first because I believe they’re the most valuable resource you can find. It gives you the prerequisites for the exam, lists out what a successful candidate can do in ServiceNow, the exam structure, learning domains and even sample test questions. If you go through the blueprint and truly understand each topic listed you will have no problem passing the exam.</p>
 
 
-<a href="https://www.servicenow.com/content/dam/servicenow/other-documents/training/ServiceNow-Sys-Admin-Exam-Specs.pdf">System Administration Exam Blueprint</a>
+<a href="https://www.servicenow.com/content/dam/servicenow/other-documents/training/ServiceNow-Sys-Admin-Exam-Specs.pdf">System Administration Exam Blueprint</a><br>
 <a href="https://www.servicenow.com/content/dam/servicenow/other-documents/training/exam-blueprint.pdf">Application Developer Exam Blueprint</a>
 
 
@@ -62,7 +60,7 @@ logo: 'assets/images/jg_logo_white.png'
 <p>While working with the platform, which I highly recommend you do as often as possible, you’re going to come across some issues or roadblocks. If you need help or are looking for answers, there’s no better place to go than the ServiceNow Documentation page or the ServiceNow Community Forum. The SNOW Documentation is fresh off the press and is continually being updated. The Community Forum is a great place to ask questions, interact with other developers and learn from others around you.</p>
 
 
-<a href="https://community.servicenow.com/welcome">ServiceNow Community Forum</a>
+<a href="https://community.servicenow.com/welcome">ServiceNow Community Forum</a><br>
 <a href="https://developer.servicenow.com/app.do#!/documentation?v=jakarta">ServiceNow Developer Documentation</a>
 
 
@@ -70,7 +68,7 @@ logo: 'assets/images/jg_logo_white.png'
 <p>If you’re looking for pure study materials for your test, these flashcards are a great resource. The System Admin flashcards are broken up by module so you can break down your plan of study into digestible pieces. Check out the App Developer flashcards to find information on team development, scripting, application security and working with data.</p> 
 
 
-<a href="https://quizlet.com/class/2490040/">System Administration Exam Flashcards</a>
+<a href="https://quizlet.com/class/2490040/">System Administration Exam Flashcards</a><br>
 <a href="https://quizlet.com/217493821/servicenow-application-developer-certification-flash-cards/">Application Developer Exam Flashcards</a>
 
 
@@ -103,5 +101,4 @@ logo: 'assets/images/jg_logo_white.png'
 <a href="https://community.servicenow.com/thread/284380">Discussion on Changes made to the Implementation Specialist Certification</a>
 <br>
 <a href="https://community.servicenow.com/message/789904#789904">Discussion on Beginners Learning ServiceNow</a>  
-<br>
 <a href="https://www.webassessor.com/wa.do?page=publicHome&branding=SERVICE_NOW">Register for you Exam Here</a> 
