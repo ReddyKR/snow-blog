@@ -180,7 +180,7 @@ If you’ve gone through the Learning Plan, you should have run through the "<a 
   <img src="assets/images/UserInter/angularjs_uipage.jpg" alt="AngularJS UI Page" />
 </p>
 <p><small><i>
-The jelly script tags along with the angularJS script and bootstrap link can be seen here.
+The Jelly Script tags along with the AngularJS script and bootstrap link can be seen here.
 </i></small></p>
 
 <p>
@@ -199,7 +199,7 @@ This simple example here does illustrate some of the nice features, such as two-
 
 
 <p>
-It’s pretty concise and gives you the basic elements you need to get your application looking nice. However, there are some inherent problems that arise as you scale up your project. You have various references on the UI Page of UI Scripts for Client side scripting, Script Includes/Processing Script for Server side scripting, and CSS styling as well. When you move up and view from the top-down, page navigation gets awkward with endpoints like x_1010_app.do' This seems like it should be separated from your base application and unified. So what is the alternative?
+It’s pretty concise and gives you the basic elements you need to get your application looking nice. However, there are some inherent problems that arise as you scale up your project. You have various references on the UI Page of UI Scripts for Client side scripting, Script Includes/Processing Script for Server side scripting, and CSS styling as well. When you move up and view from the top-down, page navigation gets awkward with endpoints like 'x_1010_app.do'. This seems like it should be separated from your base application and unified through a manager. So what is the alternative?
 </p>
 <hr />
 
@@ -212,7 +212,7 @@ Now it looks more like a consumer site!
 </i></small></p>
 
 <p>
-The CMS has been around for years, predating the four most recent releases out today. If you understand Jelly Script and/or have a complex service catalog, this might be the choice for you. As a plugin, it provides a ServiceNow application that creates custom interfaces for the ServiceNow platform and ServiceNow applications. When you want to create a new site within your instance, you can create a new Content Site. This encompasses all the various components where you can customize the HTML, CSS, layout, and more. To access tables and persist data, Developers can access their ServiceNow data through Jelly scripts to retrieve it and iframes display it.  Same, in the sense of the high-level overview, to the previous example but CMS is different in its packaging. The basic structure is:
+The CMS has been around for years, predating the four most recent releases out today. If you understand Jelly Script and/or have a complex service catalog, this might be the choice for you. As a plugin, it creates a ServiceNow application that creates custom interfaces for the ServiceNow platform and other applications. When you want to create a new site within your instance, you can create a new Content Site. This encompasses all the various components where you can customize the HTML, CSS, layout, and more. To access tables and persist data, Developers can access their ServiceNow data through Jelly Scripts to retrieve it and iframes display it.  In the sense of the high-level overview, the CMS does achieve the same thing as our previous AngularJS app, but it’s different in its packaging. The basic structure is:
 </p>
 
 <p>
@@ -271,7 +271,7 @@ Everything you need to develop a widget; easily accessible, side-by-side.
 
 <h3>CMS vs Service Portal</h3>
 <p>
-You can see forums on this topic that are fairly recent. Service Portal, in a developer perspective, is simply easier to use. CMS and Service Portal are separate entities. While CMS is prone to having update conflicts, Service Portal is a self-enclosed application independent from any new versions that get released. Another point for Service Portal is the lack of Jelly Script and iframes. Jelly script is not widely popular and makes it difficult to find proper/helpful documentation. With iframes, they are difficult to style and would be susceptible to upgrade issues. Service Portal uses AngularJS, a popular framework, and being just a visual layer allows it for better control of the page design. The downside of the Service Portal would be that it only allows for one Catalog per portal out of the box, whereas the CMS iframes can handle the need for complex catalogs.
+You can see forums on this topic that are fairly recent. Service Portal, in a developer perspective, is simply easier to use. CMS and Service Portal are separate entities. While CMS is prone to having update conflicts, Service Portal is a self-enclosed application independent from any new versions that get released. Another point for Service Portal is the lack of Jelly Script and iframes. Jelly Script is not widely popular and makes it difficult to find proper/helpful documentation. With iframes, they are difficult to style and would be susceptible to upgrade issues. Service Portal uses AngularJS, a popular framework, and being just a visual layer allows for a better control of the page design. However, there is one notable downside to the Service Portal. It only allows for one Catalog per portal out of the box, whereas the CMS iframes can handle the need for complex catalogs. Multiple Catalog references can be achieved on a Service Portal, but it requires various widget communication and complexity that can be a hassle.
 </p>
 <p>
 For a more thorough discussion on this topic, check out Goran Lundqvist and Brad Tilton’s thoughts on the matter:
@@ -281,7 +281,7 @@ For a more thorough discussion on this topic, check out Goran Lundqvist and Brad
 
 <h3>Up Next?</h3>
 <p>
-It’s short-sighted to say that these will be the only options available for ServiceNow. The company aims to do two major releases a year and is steadily growing. With more developers coming on board to build on the platform, the company will be more than likely to accommodate them with the most practical and widely used frameworks and tools. So while Angular 4 is not currently available, we might see it in the near future along with React, Redux, and many others.
+It’s short-sighted to say that these will be the only options available for ServiceNow. The company aims to do two major releases a year and is steadily growing. With more developers coming on board to build on the platform, the company will be more than likely to accommodate them with the most practical and widely used frameworks/tools. So while Angular 4 is not currently available, we might see it in the near future along with React, Redux, and many others.
 </p>
 </p></p>
 
