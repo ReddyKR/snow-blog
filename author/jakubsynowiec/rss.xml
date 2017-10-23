@@ -15,7 +15,7 @@
 	  <title>The Good, the Bad, and the Ugly About ServiceNow from a Developer's Perspective</title>
 	  <link>//Good-Bad-And-Ugly</link>
 	  <author>jakubsynowiec</author>
-	  <pubDate>2014-09-27T10:18:00+00:00</pubDate>
+	  <pubDate>2017-10-04T10:18:00+00:00</pubDate>
 	  <guid>//Good-Bad-And-Ugly</guid>
 	  <description><![CDATA[
 	     <p>Over the years, the concept of “platform” has been growing and become one of the main topics regarding IT Service Management. ServiceNow is one company in particular that has become a big thing in this space. Sure, the <a href="https://www.servicenow.com/customers.html#all-customers">list</a> of companies using the ServiceNow platform is impressive, but it doesn’t show how many people are actually using or familiar with the platform. What really brought this to my attention is when I mention ServiceNow while talking to people working in big companies. They usually have heard about it and they either know it is being used at company they, or someone else they know work at. With the growing popularity of the platform comes the need for skilled developers. I familiarized myself with the platform, and I built a demo application. This journey taught me various quirks about the platform which I want to share with all the other Developers.</p>
