@@ -23,7 +23,8 @@ google_analytics: UA-91305857-2;
 location: 'Schenectady, USA'
 
 baseurl: "/" # the subpath of your site, e.g. /blog
-url: "http://JahnelGroup.github.io/snow-blog/" # the base hostname & protocol for your site, e.g. http://example.com
+# url: "http://JahnelGroup.github.io/snow-blog/" # the base hostname & protocol for your site, e.g. http://example.com
+url: "http://blog.jahnelgroup.com/" 
 image: 'assets/images/casper.png'
 disqus: username
 
