@@ -14,7 +14,7 @@ image: 'assets/images/jsynowiec.jpg'
 logo: 'assets/images/jg_logo_white.png'
 ---
 
-While developing an application for Service Portal you are given many features out of the box. You get an responsive environment with widgets that you can use on several pages. But what if you need to change some of that out of the box parts? After having my application tested I was given a task to change the behaviour of the menu on mobile view.
+While developing an application for Service Portal you are given many features out of the box. You get a responsive environment with widgets that you can use on several pages. But what if you need to change some of that out of the box parts? After having my application tested I was given a task to change the behaviour of the menu on mobile view.
 
 ## How it works now
 ![Incorrect](/assets/images/MenuMobile/mobile-menu-incorrect.gif)
