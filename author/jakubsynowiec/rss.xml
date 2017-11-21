@@ -12,6 +12,54 @@
    <atom:link href="rss" rel="self" type="application/rss+xml" />
    
 	<item>
+	  <title>Fix Mobile Menu on Service Portal</title>
+	  <link>//Service-Portal-Mobile-Menu</link>
+	  <author>jakubsynowiec</author>
+	  <pubDate>2017-10-04T10:18:00+00:00</pubDate>
+	  <guid>//Service-Portal-Mobile-Menu</guid>
+	  <description><![CDATA[
+	     <p>While developing an application for Service Portal, you are provided with  many features “out of the box”. You get an responsive environment with widgets that can be used on several different pages. But what if you need to change some of those  “out of the box” parts? After one of my applications was tested by QA,  I was given a task to change the behavior  of the menu on mobile view.</p>
+
+<h2 id="how-it-works-now">How it works now</h2>
+<p><img src="/assets/images/MenuMobile/mobile-menu-incorrect.gif" alt="Incorrect" />
+Throughout testing, the mobile menu performance was largely inconsistent. When pressing  on one of the options it occasionally  collapsed however, other times it did not.</p>
+
+<h2 id="how-it-should-be">How it should be</h2>
+<p><img src="/assets/images/MenuMobile/mobile-menu-correct.gif" alt="Correct" />
+I was asked to change the menu to collapse every time a link is clicked, thus improving the user experience by freeing up valuable screen real estate. Overall, you usually want to see the intended page after clicking the menu link, and not have to collapse the menu manually every time.Ideally, this would be something that could be toggled on and off  in Service  Portal, but sadly that option doesn’t exist.l   The current behavior performs intermittently, which makes for an unacceptable user experience.</p>
+
+<h2 id="changing-it">Changing it</h2>
+
+<p>Fortunately, there is an easy fix. All you’ll need to do is go to Service Portal Menu application:</p>
+
+<p><img src="/assets/images/MenuMobile/service-portal-menu.jpeg" alt="Menu" />
+Select the Header Menu that your Service Portal uses.</p>
+
+<p>There are options for changing Menu as a widget itself. You can modify it to your needs, but the change that we need to make is not in this widget itself, but in an angular template. Therefore you’ll need to scroll down, select <em>ng-template</em> tab and click on <em>menuTemplate</em>:</p>
+
+<p><img src="/assets/images/MenuMobile/menu-bottom.jpeg" alt="menuTemplate" /></p>
+
+<p>At this point you may need to change the current application scope to global or if you are in a different scope than global, just use the link on the popup dialog showing. . After that you can then change the code:</p>
+
+<p><img src="/assets/images/MenuMobile/menu-template.jpeg" alt="Code change" /></p>
+
+<p>All the changes we need to make  are  going to happen in the first line. You should add <em>data-toggle</em> and <em>data-target</em> to the anchor tag:
+<code class="highlighter-rouge">html
+&lt;a data-toggle="collapse" data-target=".navbar-collapse" ng-if="item.items.length == 0 &amp;&amp; !item.scriptedItems" ng-href=""  title=""&gt;
+</code>
+Keep in mind that if you have  any <em>toggle</em> or <em>target</em> parameters inside an element, you need to get rid of them.</p>
+
+<p>Now, you’re done! Now you need to save your  changes by clicking <em>Update</em> in the top right corner and then test away.</p>
+
+<h2 id="summary">Summary</h2>
+
+<p>There are few things you need to keep in mind when making this change. First of all, this is applicable  to <strong><em>all</em></strong> the applications using this Header Menu widget on the instance. Then, if you want the change to apply to your application, you’ll need to redo all steps on every instance (because you’re modifying original header). If you need to have the change bind with your application, it should work if you clone this header and use it as your own custom widget. Lastly, this is a change to existing code that was created by ServiceNow itself, tested and deployed to be used by customers. My change may break something, so keep in mind that your own personal mileage may vary. After making  this change, test your application thoroughly and check if it meets your requirements.</p>
+
+
+	  ]]></description>
+	</item>
+
+	<item>
 	  <title>The Good, the Bad, and the Ugly About ServiceNow from a Developer's Perspective</title>
 	  <link>//Good-Bad-And-Ugly</link>
 	  <author>jakubsynowiec</author>

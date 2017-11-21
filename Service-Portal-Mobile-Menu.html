@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- [[! Document Settings ]] -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <!-- [[! Page Meta ]] -->
+    <title>Fix Mobile Menu on Service Portal</title>
+    <meta name="description" content="A blog about ServiceNow" />
+
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="shortcut icon" href="/assets/images/favicon.ico" >
+
+    <!-- [[! Styles'n'Scripts ]] -->
+    <link rel="stylesheet" type="text/css" href="/assets/css/screen.css" />
+    <link rel="stylesheet" type="text/css"
+          href="//fonts.googleapis.com/css?family=Merriweather:300,700,700italic,300italic|Open+Sans:700,400" />
+    <link rel="stylesheet" type="text/css" href="/assets/css/syntax.css" />
+
+    <!-- [[! highlight.js ]] -->
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.3.0/styles/default.min.css">
+    <style>.hljs { background: none; }</style>
+
+    <!-- [[! Ghost outputs important style and meta data with this tag ]] -->
+        <link rel="canonical" href="http://blog.jahnelgroup.com///Service-Portal-Mobile-Menu" />
+    <meta name="referrer" content="origin" />
+    <link rel="next" href="/page2/" />
+
+    <meta property="og:site_name" content="Jahnel Group ServiceNow Blog" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Fix Mobile Menu on Service Portal" />
+    <meta property="og:description" content="A blog about ServiceNow" />
+    <meta property="og:url" content="http://blog.jahnelgroup.com///Service-Portal-Mobile-Menu" />
+    <meta property="og:image" content="/assets/images/cover3.jpg" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Fix Mobile Menu on Service Portal" />
+    <meta name="twitter:description" content="A blog about ServiceNow" />
+    <meta name="twitter:url" content="http://blog.jahnelgroup.com///Service-Portal-Mobile-Menu" />
+    <meta name="twitter:image:src" content="/assets/images/cover3.jpg" />
+
+    <script type="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "@type": "Website",
+    "publisher": "Jahnel Group ServiceNow Blog",
+    "name": "Fix Mobile Menu on Service Portal",
+    "url": "http://blog.jahnelgroup.com///Service-Portal-Mobile-Menu",
+    "image": "/assets/images/cover3.jpg",
+    "description": "A blog about ServiceNow"
+}
+    </script>
+
+    <meta name="generator" content="Jekyll 3.0.0" />
+    <link rel="alternate" type="application/rss+xml" title="Jahnel Group ServiceNow Blog" href="/feed.xml" />
+
+
+    
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-91305857-2"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments)};
+gtag('js', new Date());
+
+gtag('config', 'UA-91305857-2');
+</script>
+
+    
+</head>
+<body class="home-template nav-closed">
+
+    <div class="nav">
+    <h3 class="nav-title">Menu</h3>
+    <a href="#" class="nav-close">
+        <span class="hidden">Close</span>
+    </a>
+    <ul>
+        <li class="nav-home " role="presentation"><a href="/">Home</a></li>
+        <li class="nav-about " role="presentation"><a href="/about">About</a></li>
+        <li class="nav-platform " role="presentation"><a href="/tag/platform">Platform</a></li>
+        <li class="nav-tips " role="presentation"><a href="/tag/tips">Tips</a></li>
+    </ul>
+    <a class="subscribe-button icon-feed" href="/feed.xml">Subscribe</a>
+</div>
+<span class="nav-cover"></span>
+
+
+    <div class="site-wrapper">
+
+        <!-- [[! Everything else gets inserted here ]] -->
+        <!-- < default -->
+
+<!-- The comment above "< default" means - insert everything in this file into -->
+    <!-- the [body] of the default.hbs template, which contains our header/footer. -->
+
+<!-- Everything inside the #post tags pulls data from the post -->
+<!-- #post -->
+
+<header class="main-header post-head " style="background-image: url(/assets/images/cover3.jpg) ">
+    <nav class="main-nav  overlay  clearfix">
+        <a class="blog-logo" href="/"><img src="/assets/images/jg_logo_white.png" alt="Blog Logo" /></a>
+        
+            <a class="menu-button icon-menu" href="#"><span class="word">Menu</span></a>
+        
+    </nav>
+</header>
+
+<main class="content" role="main">
+
+    <article class="post tag-test tag-content">
+
+        <header class="post-header">
+            <h1 class="post-title">Fix Mobile Menu on Service Portal</h1>
+            <section class="post-meta">
+            <!-- <a href='/'>Jakub Synowiec</a> -->
+            <time class="post-date" datetime="2017-10-04">04 Oct 2017</time>
+                <!-- [[tags prefix=" on "]] -->
+                
+                on
+                
+                    
+                       <a href='/tag/platform'>Platform</a>
+                    
+                
+                
+            </section>
+        </header>
+
+        <section class="post-content">
+
+            <p>While developing an application for Service Portal, you are provided with  many features “out of the box”. You get an responsive environment with widgets that can be used on several different pages. But what if you need to change some of those  “out of the box” parts? After one of my applications was tested by QA,  I was given a task to change the behavior  of the menu on mobile view.</p>
+
+<h2 id="how-it-works-now">How it works now</h2>
+<p><img src="/assets/images/MenuMobile/mobile-menu-incorrect.gif" alt="Incorrect" />
+Throughout testing, the mobile menu performance was largely inconsistent. When pressing  on one of the options it occasionally  collapsed however, other times it did not.</p>
+
+<h2 id="how-it-should-be">How it should be</h2>
+<p><img src="/assets/images/MenuMobile/mobile-menu-correct.gif" alt="Correct" />
+I was asked to change the menu to collapse every time a link is clicked, thus improving the user experience by freeing up valuable screen real estate. Overall, you usually want to see the intended page after clicking the menu link, and not have to collapse the menu manually every time.Ideally, this would be something that could be toggled on and off  in Service  Portal, but sadly that option doesn’t exist.l   The current behavior performs intermittently, which makes for an unacceptable user experience.</p>
+
+<h2 id="changing-it">Changing it</h2>
+
+<p>Fortunately, there is an easy fix. All you’ll need to do is go to Service Portal Menu application:</p>
+
+<p><img src="/assets/images/MenuMobile/service-portal-menu.jpeg" alt="Menu" />
+Select the Header Menu that your Service Portal uses.</p>
+
+<p>There are options for changing Menu as a widget itself. You can modify it to your needs, but the change that we need to make is not in this widget itself, but in an angular template. Therefore you’ll need to scroll down, select <em>ng-template</em> tab and click on <em>menuTemplate</em>:</p>
+
+<p><img src="/assets/images/MenuMobile/menu-bottom.jpeg" alt="menuTemplate" /></p>
+
+<p>At this point you may need to change the current application scope to global or if you are in a different scope than global, just use the link on the popup dialog showing. . After that you can then change the code:</p>
+
+<p><img src="/assets/images/MenuMobile/menu-template.jpeg" alt="Code change" /></p>
+
+<p>All the changes we need to make  are  going to happen in the first line. You should add <em>data-toggle</em> and <em>data-target</em> to the anchor tag:
+<code class="highlighter-rouge">html
+&lt;a data-toggle="collapse" data-target=".navbar-collapse" ng-if="item.items.length == 0 &amp;&amp; !item.scriptedItems" ng-href=""  title=""&gt;
+</code>
+Keep in mind that if you have  any <em>toggle</em> or <em>target</em> parameters inside an element, you need to get rid of them.</p>
+
+<p>Now, you’re done! Now you need to save your  changes by clicking <em>Update</em> in the top right corner and then test away.</p>
+
+<h2 id="summary">Summary</h2>
+
+<p>There are few things you need to keep in mind when making this change. First of all, this is applicable  to <strong><em>all</em></strong> the applications using this Header Menu widget on the instance. Then, if you want the change to apply to your application, you’ll need to redo all steps on every instance (because you’re modifying original header). If you need to have the change bind with your application, it should work if you clone this header and use it as your own custom widget. Lastly, this is a change to existing code that was created by ServiceNow itself, tested and deployed to be used by customers. My change may break something, so keep in mind that your own personal mileage may vary. After making  this change, test your application thoroughly and check if it meets your requirements.</p>
+
+
+
+        </section>
+
+        <footer class="post-footer">
+
+            <!-- Everything inside the #author tags pulls data from the author -->
+            <!-- #author-->
+
+            
+            <figure class="author-image">
+                <a class="img" href="/author/jakubsynowiec" style="background-image: url(/assets/images/jsynowiec.jpg)"><span class="hidden">Jakub Synowiec's Picture</span></a>
+            </figure>
+            
+
+            <section class="author">
+                <h4><a href="/author/jakubsynowiec">Jakub Synowiec</a></h4>
+
+                
+                    <p> Certified ServiceNow Application Developer</p>
+                
+                <div class="author-meta">
+                    <span class="author-location icon-location"> Schenectady, USA</span>
+                    <span class="author-link icon-link"><a href="http://blog.jahnelgroup.com/"> </a></span>
+                </div>
+            </section>
+
+            <!-- /author  -->
+
+            <section class="share">
+                <h4>Share this post</h4>
+                <a class="icon-twitter" href="http://twitter.com/share?text=Fix Mobile Menu on Service Portal&amp;url=http://blog.jahnelgroup.com/Service-Portal-Mobile-Menu"
+                    onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+                    <span class="hidden">Twitter</span>
+                </a>
+                <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://blog.jahnelgroup.com/Service-Portal-Mobile-Menu"
+                    onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+                    <span class="hidden">Facebook</span>
+                </a>
+                <a class="icon-google-plus" href="https://plus.google.com/share?url=http://blog.jahnelgroup.com/Service-Portal-Mobile-Menu"
+                   onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
+                    <span class="hidden">Google+</span>
+                </a>
+            </section>
+
+            <!-- Add Disqus Comments -->
+            
+
+        </footer>
+
+    </article>
+
+</main>
+
+<aside class="read-next">
+
+    <!-- [[! next_post ]] -->
+    
+    <!-- [[! /next_post ]] -->
+    <!-- [[! prev_post ]] -->
+    
+        <a class="read-next-story prev " style="background-image: url(/assets/images/cover3.jpg)" href="/Good-Bad-And-Ugly">
+            <section class="post">
+                <h2>The Good, the Bad, and the Ugly About ServiceNow from a Developer's Perspective</h2>
+                <p><p>Over the years, the concept of “platform” has been growing and become one of the...</p>
+            </section>
+        </a>
+    
+    <!-- [[! /prev_post ]] -->
+</aside>
+
+<!-- /post -->
+
+
+        <footer class="site-footer clearfix">
+          <section class="copyright"><a href="/">Jahnel Group ServiceNow Blog</a> &copy; 2017</section>
+          <section class="poweredby">Proudly published with <a href="https://jekyllrb.com/">Jekyll</a> using <a href="https://github.com/biomadeira/jasper">Jasper</a></section>
+        </footer>
+    </div>
+    <!-- [[! highlight.js ]] -->
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.3.0/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    <!-- [[! Ghost outputs important scripts and data with this tag ]] -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <!-- [[! The main JavaScript file for Casper ]] -->
+    <script type="text/javascript" src="/assets/js/jquery.fitvids.js"></script>
+    <script type="text/javascript" src="/assets/js/index.js"></script>
+
+    <!-- Add Google Analytics  -->
+</body>
+</html>

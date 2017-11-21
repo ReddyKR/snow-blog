@@ -8,6 +8,21 @@
     
       
       <item>
+        <title>Fix Mobile Menu on Service Portal</title>
+        
+          <description>&lt;p&gt;While developing an application for Service Portal, you are provided with  many features “out of the box”. You get an responsive environment with widgets that can be used on several different pages. But what if you need to change some of those  “out of the box” parts? After one of my applications was tested by QA,  I was given a task to change the behavior  of the menu on mobile view.&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Wed, 04 Oct 2017 10:18:00 +0000</pubDate>
+        <link>
+        http://blog.jahnelgroup.com//Service-Portal-Mobile-Menu</link>
+        <guid isPermaLink="true">http://blog.jahnelgroup.com//Service-Portal-Mobile-Menu</guid>
+      </item>
+      
+    
+      
+      <item>
         <title>The Good, the Bad, and the Ugly About ServiceNow from a Developer&#39;s Perspective</title>
         
           <description>&lt;p&gt;Over the years, the concept of “platform” has been growing and become one of the main topics regarding IT Service Management. ServiceNow is one company in particular that has become a big thing in this space. Sure, the &lt;a href=&quot;https://www.servicenow.com/customers.html#all-customers&quot;&gt;list&lt;/a&gt; of companies using the ServiceNow platform is impressive, but it doesn’t show how many people are actually using or familiar with the platform. What really brought this to my attention is when I mention ServiceNow while talking to people working in big companies. They usually have heard about it and they either know it is being used at company they, or someone else they know work at. With the growing popularity of the platform comes the need for skilled developers. I familiarized myself with the platform, and I built a demo application. This journey taught me various quirks about the platform which I want to share with all the other Developers.&lt;/p&gt;
